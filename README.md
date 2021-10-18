@@ -11,4 +11,17 @@ Action Sizes : 4
 
 Reward:  +1 (Yellow Banana), -1 (Blue Banana)
 
-Enviroment Solved:  Average Reward >=13.0 with the lastest 100 episodes
+Enviroment Solved:  Average Reward for the lastest 100 episodes >=13.0
+
+
+
+# Getting Started
+
+
+
+
+
+
+# How to run the code
+
+You can run the code both from Nagivation.ipynb and Report.ipynb. I recommend to run the code in Report.ipynb since the instructions have been divided into 7 steps with descripstions.
