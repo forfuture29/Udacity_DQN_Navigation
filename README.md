@@ -24,4 +24,4 @@ Enviroment Solved:  Average Reward for the lastest 100 episodes >=13.0
 
 # How to run the code
 
-You can run the code both from Nagivation.ipynb and Report.ipynb. I recommend to run the code in Report.ipynb since the instructions have been divided into 7 steps with descripstions.
+You can run the code from both Nagivation.ipynb and Report.ipynb. I recommend to run the code in Report.ipynb since the instructions have been divided into 7 steps with descripstions.
