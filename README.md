@@ -25,7 +25,7 @@ Enviroment Solved:  Average Reward for the lastest 100 episodes >=13.0
  <br />Windows (64-bit): [Click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
 Then, place the file in the p1_navigation/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
-if you run the jupyter notebook locally, you need to import environmment using the code as  below:
+If you run the jupyter notebook locally (apart from Udacity Workspace), you need to import the environmment using the code as  follows:
 
 ```python
 env = UnityEnvironment(file_name=.....)
@@ -42,7 +42,7 @@ change the file_name parameter to match the location of the Unity environment th
 - **Linux** (x86, headless): `"path/to/Banana_Linux_NoVis/Banana.x86"`
 - **Linux** (x86_64, headless): `"path/to/Banana_Linux_NoVis/Banana.x86_64"`
 
-For instance, if you are using a Mac, then you downloaded Banana.app. If this file is in the same folder as the notebook, then the line below should appear as follows:
+For example, if you are using a Mac, then you downloaded Banana.app. If this file is in the same folder as the notebook, then the line below should appear as follows:
 
 
 ```python
