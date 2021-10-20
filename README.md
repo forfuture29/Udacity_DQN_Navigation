@@ -24,7 +24,7 @@ Enviroment Solved:  Average Reward for the lastest 100 episodes >=13.0
  <br />Windows (32-bit): [Click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
  <br />Windows (64-bit): [Click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
-Then, place the file in the p1_navigation/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
+Then, place the file in the p1_navigation/ folder in the DRLND GitHub repository, and unzip the file.
 
 
 
