@@ -17,7 +17,7 @@ Enviroment Solved:  Average Reward for the lastest 100 episodes >=13.0
 
 # Getting Started
 
-1. First, we have to set up the environment by follow the instructions in n the [DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies)
+1. First, we have to set up the environment by following the instructions in the [DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies)
 2. Download the Unity environment based on your operating system as below:
  <br />Linux: [Click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
  <br />Mac OSX: [Click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
