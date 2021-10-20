@@ -1,6 +1,6 @@
 # Udacity_DQN_Navigation
 
-The goal of this project is to solve the Banana Environment from Unity Engine with details as below:
+The goal of this project is to solve the Banana Environment from Unity Engine with the tasks as follows:
 
 
 Task : Collect yellow banana as many as possible
