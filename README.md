@@ -25,14 +25,13 @@ Enviroment Solved:  Average Reward for the lastest 100 episodes >=13.0
  <br />Windows (64-bit): [Click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
 Then, place the file in the p1_navigation/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
-If you run the jupyter notebook locally (apart from Udacity Workspace), you need to import the environmment using the code as  follows:
-
-```python
-env = UnityEnvironment(file_name=.....)
-```
 
 
-change the file_name parameter to match the location of the Unity environment that you downloaded.
+
+
+# How to run the code
+
+You can run the code from both Nagivation.ipynb and Report.ipynb. I recommend to run the code in Report.ipynb. The instructions have been divided into 7 steps which all you have to do is to follow each step consecutively. Please note that you need to import the environment by changing the `file_name` parameter to match the location of the Unity environment that you downloaded.
 
 - **Mac**: `"path/to/Banana.app"`
 - **Windows** (x86): `"path/to/Banana_Windows_x86/Banana.exe"`
@@ -40,17 +39,5 @@ change the file_name parameter to match the location of the Unity environment th
 - **Linux** (x86): `"path/to/Banana_Linux/Banana.x86"`
 - **Linux** (x86_64): `"path/to/Banana_Linux/Banana.x86_64"`
 - **Linux** (x86, headless): `"path/to/Banana_Linux_NoVis/Banana.x86"`
-- **Linux** (x86_64, headless): `"path/to/Banana_Linux_NoVis/Banana.x86_64"`
+- **Linux** (x86_64, headless): `"path/to/Banana_Linux_NoVis/Banana.x86_64"` 
 
-For example, if you are using a Mac, then you downloaded Banana.app. If this file is in the same folder as the notebook, then the line below should appear as follows:
-
-
-```python
-env = UnityEnvironment(file_name="Banana.app")
-```
-
-
-
-# How to run the code
-
-You can run the code from both Nagivation.ipynb and Report.ipynb. I recommend to run the code in Report.ipynb. The instructions have been divided into 7 steps which all you have to do is to follow each step consecutively.
