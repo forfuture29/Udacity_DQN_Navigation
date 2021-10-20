@@ -3,7 +3,7 @@
 The goal of this project is to solve the Banana Environment from Unity Engine with the tasks as follows:
 
 
-Task : Collect yellow banana as many as possible
+Goal : Collect yellow banana as many as possible
 
 State Sizes  : 37
 
