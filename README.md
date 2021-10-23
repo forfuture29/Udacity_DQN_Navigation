@@ -71,7 +71,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 5. Once, every step is completed, we can download the Unity environment.  Place the file in the p1_navigation/ folder and start running.
 
-Note** At first, training in the local computer give me this error `numpy.int64 object has not attribute keys` so i need to convert the action to numpy int32
+`ruby Note` At first, training in the local computer give me this error `numpy.int64 object has not attribute keys` so i need to convert the action to numpy int32
 so if anyone get this error, the solution is to add the code as below:
 `action=action.astype(int)`
 
