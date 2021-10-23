@@ -58,7 +58,13 @@ To give an example of how i create the virtual environment on my local computer,
    The whl file can be downloaded from [here](https://download.pytorch.org/whl/torch_stable.html)
    
 4. Now, we can install all the necessary libraries and create IPython kernel for the `drlnd` environment.
+
+`conda activate drlnd`
+
+`cd deep-reinforcement-learning\python`
+
 `pip install .`
+
 `python -m ipykernel install --user --name drlnd --display-name "drlnd"`
 
 5. Once, every step is completed, we can download the Unity environment.  Place the file in the p1_navigation/ folder and start running.
