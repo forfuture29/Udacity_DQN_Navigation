@@ -33,6 +33,7 @@ Then, place the file in the p1_navigation/ folder in the DRLND GitHub repository
 
 You can run the code from both Nagivation.ipynb and Report.ipynb. I recommend to run the code in Report.ipynb. The instructions have been divided into 7 steps which all you have to do is to follow each step consecutively. Please note that you need to import the environment by changing the `file_name` parameter to match the location of the Unity environment that you downloaded.
 
+
 - **Mac**: `"path/to/Banana.app"`
 - **Windows** (x86): `"path/to/Banana_Windows_x86/Banana.exe"`
 - **Windows** (x86_64): `"path/to/Banana_Windows_x86_64/Banana.exe"`
@@ -48,21 +49,21 @@ You can run the code from both Nagivation.ipynb and Report.ipynb. I recommend to
 To give an example of how i create the virtual environment on my local computer, i will illustrate more on the steps and problems that i encounter.
 
 1. First, i start by clone the github using the code as below:
-'git clone https://github.com/udacity/deep-reinforcement-learning.git'
+`git clone https://github.com/udacity/deep-reinforcement-learning.git`
 
 2. Next, i create the virtual environment (my operating system is windows): 
-'conda create --name drlnd python=3.6' 
+`conda create --name drlnd python=3.6`
 
 3. Third step is to install torch using whl file since the torch 0.4.0 in dependencies is a bit too old to use pip.
    The whl file can be downloaded from [here](https://download.pytorch.org/whl/torch_stable.html)
    
-4. Now, we can install all the necessary libraries and create IPython kernel for the 'drlnd' environment.
-'pip install .'
-'python -m ipykernel install --user --name drlnd --display-name "drlnd"'
+4. Now, we can install all the necessary libraries and create IPython kernel for the `drlnd` environment.
+`pip install .`
+`python -m ipykernel install --user --name drlnd --display-name "drlnd"`
 
 5. Once, every step is compleated, we can download the Unity environment.  Place the file in the p1_navigation/ folder and start running.
 
-Note** At first, training in the local computer give me this error ''numpy.int64' object has not attribute 'keys'' so i need to convert the action to numpy int32
-so if anyone also got this error you need to at the code as below:
-'action=action.astype(int)'
+Note** At first, training in the local computer give me this error `numpy.int64 object has not attribute keys` so i need to convert the action to numpy int32
+so if anyone also got this error you need to add the code as below:
+`action=action.astype(int)`
 
