@@ -48,7 +48,7 @@ You can run the code from both Nagivation.ipynb and Report.ipynb. I recommend to
 # More on how to start the virtual environment on your local computer
 To give an example of how i create the virtual environment on my local computer, i will illustrate more on the steps and problems that i encounter.
 
-1. First, i start by clone the repository using the code as below:
+1. First, i start by clone the repository:
 `git clone https://github.com/udacity/deep-reinforcement-learning.git`
 
 2. Next, i create the virtual environment (my operating system is windows): 
