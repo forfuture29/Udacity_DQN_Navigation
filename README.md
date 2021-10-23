@@ -66,6 +66,7 @@ conda activate drlnd
 ```
 cd deep-reinforcement-learning/python
 pip install .
+pip install gym
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
 
