@@ -62,7 +62,7 @@ To give an example of how i create the virtual environment on my local computer,
 ```
 conda activate drlnd
 
-cd deep-reinforcement-learning\python
+cd deep-reinforcement-learning/python
 
 pip install .
 
