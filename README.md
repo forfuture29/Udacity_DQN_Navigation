@@ -48,7 +48,7 @@ You can run the code from both Nagivation.ipynb and Report.ipynb. I recommend to
 # More on how to start the virtual environment on your local computer
 To give an example of how i create the virtual environment on my local computer, i will illustrate more on the steps and problems that i encounter.
 
-1. First, i start by clone the github using the code as below:
+1. First, i start by clone the repository using the code as below:
 `git clone https://github.com/udacity/deep-reinforcement-learning.git`
 
 2. Next, i create the virtual environment (my operating system is windows): 
@@ -61,9 +61,9 @@ To give an example of how i create the virtual environment on my local computer,
 `pip install .`
 `python -m ipykernel install --user --name drlnd --display-name "drlnd"`
 
-5. Once, every step is compleated, we can download the Unity environment.  Place the file in the p1_navigation/ folder and start running.
+5. Once, every step is completed, we can download the Unity environment.  Place the file in the p1_navigation/ folder and start running.
 
 Note** At first, training in the local computer give me this error `numpy.int64 object has not attribute keys` so i need to convert the action to numpy int32
-so if anyone also got this error you need to add the code as below:
+so if anyone get this error, the solution is to add the code as below:
 `action=action.astype(int)`
 
