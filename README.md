@@ -54,7 +54,7 @@ To give an example of how i create the virtual environment on my local computer,
 2. Next, i create the virtual environment (my operating system is windows): 
 `conda create --name drlnd python=3.6`
 
-3. Third step is to install torch using whl file since the torch 0.4.0 in dependencies is a bit too old to use pip.
+3. Third step is to install torch using whl file since the torch 0.4.0 in dependency is a bit too old to use pip.
    The whl file can be downloaded from [here](https://download.pytorch.org/whl/torch_stable.html)
    
 4. Now, we can install all the necessary libraries and create IPython kernel for the `drlnd` environment.
