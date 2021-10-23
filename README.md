@@ -39,5 +39,10 @@ You can run the code from both Nagivation.ipynb and Report.ipynb. I recommend to
 - **Linux** (x86): `"path/to/Banana_Linux/Banana.x86"`
 - **Linux** (x86_64): `"path/to/Banana_Linux/Banana.x86_64"`
 - **Linux** (x86, headless): `"path/to/Banana_Linux_NoVis/Banana.x86"`
-- **Linux** (x86_64, headless): `"path/to/Banana_Linux_NoVis/Banana.x86_64"` 
+- **Linux** (x86_64, headless): `"path/to/Banana_Linux_NoVis/Banana.x86_64"`
+
+# More on how to start the virtual environment on your local computer
+To give an example of how i create the virtual environment on my local computer, I will illustrate more on the steps and problem that i encounter.
+
+1. First i
 
